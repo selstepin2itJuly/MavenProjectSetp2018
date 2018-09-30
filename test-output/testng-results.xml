@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="5" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="27147" started-at="2018-09-30T16:08:49Z" finished-at="2018-09-30T16:09:16Z">
+    <groups>
+      <group name="sanity">
+        <method signature="TestNGOne.loginFeature(java.lang.String, java.lang.String)[pri:1, instance:testNGPackage.TestNGOne@42d80b78]" name="loginFeature" class="testNGPackage.TestNGOne"/>
+        <method signature="TestNGOne.privacyPolicy()[pri:2, instance:testNGPackage.TestNGOne@42d80b78]" name="privacyPolicy" class="testNGPackage.TestNGOne"/>
+        <method signature="TestNGTwo.TestOne()[pri:0, instance:testNGPackage.TestNGTwo@1e88b3c]" name="TestOne" class="testNGPackage.TestNGTwo"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Test" duration-ms="27147" started-at="2018-09-30T16:08:49Z" finished-at="2018-09-30T16:09:16Z">
+      <class name="testNGPackage.TestNGOne">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testNGPackage.TestNGOne@42d80b78]" name="beforeMethod" is-config="true" duration-ms="6253" started-at="2018-09-30T16:08:49Z" finished-at="2018-09-30T16:08:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginFeature(java.lang.String, java.lang.String)[pri:1, instance:testNGPackage.TestNGOne@42d80b78]" name="loginFeature" duration-ms="7167" started-at="2018-09-30T16:08:55Z" description="Login Feature" finished-at="2018-09-30T16:09:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[seleniumClass@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFeature -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testNGPackage.TestNGOne@42d80b78]" name="afterMethod" is-config="true" duration-ms="681" started-at="2018-09-30T16:09:02Z" finished-at="2018-09-30T16:09:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testNGPackage.TestNGOne@42d80b78]" name="beforeMethod" is-config="true" duration-ms="7034" started-at="2018-09-30T16:09:03Z" finished-at="2018-09-30T16:09:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="privacyPolicy()[pri:2, instance:testNGPackage.TestNGOne@42d80b78]" name="privacyPolicy" duration-ms="5250" started-at="2018-09-30T16:09:10Z" description="Privacy" finished-at="2018-09-30T16:09:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- privacyPolicy -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testNGPackage.TestNGOne@42d80b78]" name="afterMethod" is-config="true" duration-ms="711" started-at="2018-09-30T16:09:15Z" finished-at="2018-09-30T16:09:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testNGPackage.TestNGOne -->
+      <class name="testNGPackage.TestNGTwo">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testNGPackage.TestNGTwo@1e88b3c]" name="beforeTest" is-config="true" duration-ms="0" started-at="2018-09-30T16:08:49Z" finished-at="2018-09-30T16:08:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testNGPackage.TestNGTwo@1e88b3c]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-09-30T16:08:49Z" finished-at="2018-09-30T16:08:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testNGPackage.TestNGTwo@1e88b3c]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-09-30T16:08:49Z" finished-at="2018-09-30T16:08:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TestOne()[pri:0, instance:testNGPackage.TestNGTwo@1e88b3c]" name="TestOne" duration-ms="0" started-at="2018-09-30T16:08:49Z" finished-at="2018-09-30T16:08:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestOne -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testNGPackage.TestNGTwo@1e88b3c]" name="afterSuite" is-config="true" duration-ms="0" started-at="2018-09-30T16:09:16Z" finished-at="2018-09-30T16:09:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testNGPackage.TestNGTwo -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

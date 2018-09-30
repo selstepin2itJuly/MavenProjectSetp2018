@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Test">
+    <classes>
+      <class name="testNGPackage.TestNGOne"/>
+      	<parameter name="email" value="seleniumClass@gmail.com"/>
+      	<parameter name="pass" value="Test123"/>
+      <class name="testNGPackage.TestNGTwo"/>
+    </classes>
+   <!-- <packages>
+      <package name="testNGPackage" />
+    </packages> -->
+    <groups>
+      <run>
+         <include name="sanity"/>
+         <exclude name="Regression"/>
+      </run>
+    </groups>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
